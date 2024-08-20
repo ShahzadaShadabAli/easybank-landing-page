@@ -4,7 +4,7 @@ import OfferCards from './OfferCards'
 const SecondSection = () => {
   return (
     <section id='About' className='bg-[#f4f5f7] px-[9%] pt-28 pb-32 max-md:px-16 max-md:pt-16 max-md:pb-16'>
-      <h1 className="text-5xl sans mb-7 text-color">Why choaose Easybank?</h1>
+      <h1 className="text-5xl sans mb-7 text-color">Why choose Easybank?</h1>
       <p className="text-gray-400 sans-semibold text-[18px]">We leverage Open Banking to turn your bank account into your financial hub. <br className='max-lg:hidden' /> Control your finances like never before.</p>
 
       <div className="grid grid-cols-4 mt-5 max-lg:grid-cols-2 justify-center max-md:grid-cols-1">

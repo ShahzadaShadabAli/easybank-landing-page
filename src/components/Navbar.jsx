@@ -74,11 +74,11 @@ const Navbar = () => {
     <div className='relative'>
       <nav className='flex justify-between bg-white z-30 items-center w-full fixed px-40 max-lg:px-10 max-md:px-5 mx-auto'>
       <div className="flex">
-      <img src="/images/logo.svg" width={180} alt="" />
+      <img src="/images/logo.svg" width={160} alt="" />
       </div>
       <ul className="flex gap-8 max-lg:gap-4 max-md:hidden">
         {navItems.map(n => (
-        <li className=' py-[2.2rem] relative'>
+        <li className=' py-[1.6rem] relative'>
             <a href={`#${n.name}`} onClick={() => setSelectedItem(n.id)} className={`cursor-pointer ${n.id === selectedItem ? "selected-nav text-black" : "text-gray-400"} text-[18px] max-lg:text-[15px] sans-semibold`}>
             {n.name}
             </a>
@@ -87,7 +87,7 @@ const Navbar = () => {
       </ul>
       {!toggled && <img src="/images/icon-hamburger.svg" className='md:hidden py-[2.2rem] w-10 cursor-pointer' onClick={() => {setToggled((prev) => !prev)}} alt="" />}
      {toggled && <img src="/images/icon-close.svg" className='md:hidden py-[2.2rem] pr-2 cursor-pointer' onClick={() => {setToggled((prev) => !prev)}} alt="" />}
-      <ul className="flex-1 hidden max-lg:flex sans-semibold bg-white top-28 rounded-lg collapser border border-coral-red  absolute left-[4%] shadow-3xl z-50 p-10 flex-col w-[90vw] text-[20px] justify-center items-center gap-7">
+      <ul className="flex-1 hidden max-lg:flex sans-semibold bg-white top-28 rounded-lg collapser border border-coral-red  absolute left-[4%] shadow-3xl z-50 p-10 flex-col w-[90vw] text-[18px] justify-center items-center gap-7">
                     {navItems.map(n => (
                       <li key={n.id} className="get-animate hover:text-coral-red">
                             <a href={`#${n.name}`} onClick={() => {setToggled((prev) => !prev)}} className="leading-normal text-lg text-slate-gray">
