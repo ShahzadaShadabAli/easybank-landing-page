@@ -4,7 +4,7 @@ import ArticleCard from "./ArticleCard";
 const Articles = () => {
   return (
     <section id="Blog" className="bg-[#FAFAFA] px-[9%] pt-28 pb-32 max-md:px-16 max-sm:px-4 max-md:pt-16 max-md:pb-16">
-      <h1 className="text-5xl sans-semibold mb-7">Latest Articles</h1>
+      <h1 className="text-5xl sans mb-7 text-color">Latest Articles</h1>
 
       <div className="grid grid-cols-4 mt-16 max-md:mt-0 max-lg:grid-cols-2 justify-center max-md:grid-cols-1">
         <ArticleCard img={"image-currency"} title={"Recieve money in any currency with no fees"} author={"Claire Robinson"} desc={"The world is getting smaller and we're becoming more mobile. So why should you be force to only receive money in a single..."} />

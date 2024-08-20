@@ -3,10 +3,10 @@ import Button from './Button'
 
 const Hero = () => {
   return (
-    <div id='Home' className='h-screen  bg-[#FAFAFA] gap-10 flex max-lg:flex-col-reverse items-center relative ps-40 max-lg:px-5'>
-        <div className="flex flex-1 flex-col lg:w-[32rem] gap-8 max-lg:text-center pb-10">
-            <h1 className="text-[4.1rem] max-lg:text-4xl sans-semibold mt-20 max-lg:mt-0 text-color leading-[4.9rem]">Next generation digital banking</h1>
-            <p className="text-gray-400 sans-semibold text-[20px]">Take your financial life online. Your Easybank account will be a one-stop for spending, saving, budgeting, investing, and much more.</p>
+    <div id='Home' className='h-screen bg-[#FAFAFA] gap-10 flex max-lg:flex-col-reverse items-center relative ps-40 max-lg:px-5'>
+        <div className="flex w-96 flex-col lg:w-[32rem] gap-8 max-lg:text-center pb-10">
+            <h1 className="text-[3.1rem] max-lg:text-4xl sans-semibold mt-24 max-lg:mt-0 text-color leading-[4rem]">Next generation digital banking</h1>
+            <p className="text-gray-400 sans-semibold text-[18px]">Take your financial life online. Your Easybank account will be a one-stop for spending, saving, budgeting, investing, and much more.</p>
             <div>
             <Button content={"Request Invite"}/>
             </div>
